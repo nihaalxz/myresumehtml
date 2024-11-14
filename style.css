@@ -1,0 +1,90 @@
+
+:root
+{
+    --bg-primary:#384B70;
+    --bg-secondary:#507687;
+    --color-primary:#FCFAEE;
+    --font-big:2.0rem;
+    --font-medium:1.5rem;
+    --font-small:1em;
+    --border-style:6px solid #B8001F;
+    --padding-style:5px;
+    --shadow-style:5px 5px 5px #507687;
+
+}
+
+
+*
+{
+ font-family:system-ui,'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+ text-decoration: none;
+}
+
+
+ .container
+    {
+     width:80%;
+    background-color: var(--bg-primary);
+    overflow:auto;
+    color:var(--color-primary);
+    padding: var(--padding-style);
+    border: var(--border-style);
+
+    
+    }
+
+    a{
+        color:var(--color-primary);
+        
+    }
+
+.header
+{
+    background-color: var(--bg-secondary);
+    padding: var(--padding-style);
+    
+}
+
+.Education
+{
+    background-color: var(--bg-secondary);
+    padding: var(--padding-style);
+
+  
+}
+
+.projects
+{
+    background-color: var(--bg-secondary);
+    padding: var(--padding-style);
+   
+
+}
+
+
+.font-big
+{
+    font-size: var(--font-big);
+    box-shadow: var(--shadow-style);
+}
+.font-medium{
+    font-size: var(--font-medium);
+    box-shadow: var(--shadow-style);
+}
+.font-small
+{
+    font-size: var(--font-small);
+    box-shadow: var(--shadow-style);
+}
+
+@media(max-width:576px)
+{
+ .container
+ {
+ width:100%;
+  }
+  body
+  {
+    width:90%;
+  }
+}
